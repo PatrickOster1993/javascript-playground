@@ -7,14 +7,13 @@
 1. node.js [hier](https://nodejs.org/en) installieren ...
 2. Repository clonen über VSCode-Extension...
 3. Branching: jeder erstellt seinen eigenen Branch (ausgehend vom main- bzw. master-Branch) und wechselt in diesen ...
-    git branch hierBitteDeinenNamenSchreiben
-    git checkout hierBitteDeinenNamenSchreiben
-    git push --set-upstream origin hierBitteDeinenNamenSchreiben
+   1. git branch hierBitteDeinenNamenSchreiben
+   2. git checkout hierBitteDeinenNamenSchreiben
+   3. git push --set-upstream origin hierBitteDeinenNamenSchreiben
 
 4. File "playground.js" ausführen über Terminal-Befehlseingabe: „node playground.js“ ...
 5. Innerhalb von "playground.js" ein bisschen rumspielen (30 min. austoben)
-6. Folgenden Git-Befehle ausführen (alternativ auch über Extension):
-    git pull
+6. Folgenden Git-Befehle ausführen (alternativ auch über Extension): git pull
 
 ## Übungsaufgaben (Selbstlernphase)
 
