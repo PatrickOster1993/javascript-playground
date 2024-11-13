@@ -46,6 +46,23 @@ if (zahl > 50) {
   console.log("Die Zahl ist 30 oder kleiner")
 }
 
+let istRichtig = true
+let istFalsch = false
+
+// UND-Operator (&&)
+if (istRichtig && istFalsch) {
+  console.log("Beide sind wahr")
+} else {
+  console.log("Mindestens einer ist falsch")
+}
+
+// ODER-Operator (||)
+if (istRichtig || istFalsch) {
+  console.log("Mindestens einer ist wahr")
+} else {
+  console.log("Beide sind falsch")
+}
+
 // Schleifen
 // For-Schleife
 for (let i = 0; i < 5; i++) {
@@ -140,6 +157,11 @@ function addieren(a, b) {
 }
 let summe = addieren(5, 10)
 console.log("Ergebnis der Funktion addieren:", summe)
+
+// Modulo-Operator
+let a = 17
+let b = 5
+console.log("17 % 5 =", a % b) // Gibt den Rest der Division zurück (17 geteilt durch 5)
 
 // Einfache Fehlersuche
 try {
