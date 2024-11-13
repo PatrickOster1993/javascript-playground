@@ -27,9 +27,7 @@ Erstellen Sie ein Programm, das Ihren **Namen**, Ihr **Alter** und Ihr **Lieblin
 > z. B.: „Hallo Max, du bist 25 Jahre alt und dein Lieblingsessen ist Pizza.“
 
 ### Aufgabe 2
-Schreiben Sie ein Programm, das eine Temperatur in **Celsius** in **Fahrenheit** umrechnet und dann anschließend das Ergebnis in der Konsole ausgibt. Die Umrechnungsformel lautet: 
-
-> `F = 1.8 * C + 32`
+Schreiben Sie ein Programm, das eine Temperatur in **Celsius** in **Fahrenheit** umrechnet und dann anschließend das Ergebnis in der Konsole ausgibt. Die Umrechnungsformel lautet wie folgt: `F = 1.8 * C + 32`
 
 mit F: Temperatur in **Fahrenheit**;
 sowie C: Temperatur in **Celsius**
