@@ -29,6 +29,14 @@ console.log("Wahrheitswert:", wahrheitswert, "Datentyp:", typeof wahrheitswert)
 console.log("Nichts:", nichts, "Datentyp:", typeof nichts)
 console.log("Undefiniert:", undefiniert, "Datentyp:", typeof undefiniert)
 
+// toUpperCase (Großbuchstaben)
+let upperText = text.toUpperCase()
+console.log("In Großbuchstaben:", upperText)
+
+// toLowerCase (Kleinbuchstaben)
+let lowerText = text.toLowerCase()
+console.log("In Kleinbuchstaben:", lowerText)
+
 // Bedingung
 if (zahl > 50) {
   console.log("Die Zahl ist größer als 50")
@@ -71,6 +79,24 @@ let person = {
 console.log("Person:", person)
 console.log("Name der Person:", person.name)
 
+let beispielText = "   JavaScript ist mächtig!  "
+
+// Trim (Whitespace entfernen)
+let ohneWhitespace = beispielText.trim()
+console.log("Ohne Whitespace:", ohneWhitespace)
+
+// includes (Substring prüfen)
+let enthältJavaScript = beispielText.includes("JavaScript")
+console.log("Enthält 'JavaScript'?", enthältJavaScript)
+
+// slice (Teilstring extrahieren)
+let substring = beispielText.slice(0, 10)
+console.log("Substring (0, 10):", substring)
+
+// replace (Text ersetzen)
+let neuerText = beispielText.replace("mächtig", "cool")
+console.log("Ersetzter Text:", neuerText)
+
 // Ternärer Operator
 let ergebnis = zahl > 30 ? "Größer als 30 (ternär)" : "30 oder kleiner (ternär)"
 console.log("Ergebnis (ternär):", ergebnis)
@@ -83,6 +109,30 @@ console.log("Array:", zahlenArray)
 for (let zahl of zahlenArray) {
   console.log("Zahl aus dem Array:", zahl)
 }
+
+// join (Array in String umwandeln)
+let arrayString = zahlenArray.join(", ")
+console.log("Array als String:", arrayString)
+
+// push (Neues Element ans Ende hinzufügen)
+zahlenArray.push(6)
+console.log("Array nach push:", zahlenArray)
+
+// pop (Letztes Element entfernen)
+zahlenArray.pop()
+console.log("Array nach pop:", zahlenArray)
+
+// shift (Erstes Element entfernen)
+zahlenArray.shift()
+console.log("Array nach shift:", zahlenArray)
+
+// unshift (Neues Element am Anfang hinzufügen)
+zahlenArray.unshift(0)
+console.log("Array nach unshift:", zahlenArray)
+
+// reverse (Array umdrehen)
+zahlenArray.reverse()
+console.log("Array nach reverse:", zahlenArray)
 
 // Funktionen
 function addieren(a, b) {
@@ -132,3 +182,16 @@ console.log("Verdoppelte Werte (map):", verdoppelt)
 // Spread-Operator für Arrays
 let kopiertesArray = [...zahlenArray, 6, 7]
 console.log("Spread-Operator für Array:", kopiertesArray)
+
+// sort (Array sortieren)
+let sortiertesArray = [3, 1, 4, 5, 2]
+sortiertesArray.sort((a, b) => a - b)
+console.log("Sortiertes Array:", sortiertesArray)
+
+// find (Erstes Element finden, das eine Bedingung erfüllt)
+let ersteZahlÜber3 = zahlenArray.find((num) => num > 3)
+console.log("Erste Zahl > 3:", ersteZahlÜber3)
+
+// filter (Array mit Bedingung filtern)
+let gefilterteZahlen = zahlenArray.filter((num) => num > 3)
+console.log("Gefilterte Zahlen > 3:", gefilterteZahlen)

@@ -2,7 +2,7 @@
 
 ## To Do
 
-> **Hinweis:** Änderungen bitte nur in **eigenem Branch** vornehmen!
+> **Wichtig:** Änderungen bitte nur in **eigenem Branch** vornehmen!
 
 1. node.js [hier](https://nodejs.org/en) installieren ...
 2. Repository clonen über VSCode-Extension...
@@ -16,16 +16,13 @@
 6. Folgenden Git-Befehle ausführen (alternativ auch über Extension):
     git pull
 
-## Übungsaufgaben
+## Übungsaufgaben (Selbstlernphase)
 
 > **Hinweis:** Der Übersichtlichkeit halber bitte für jede einzelne der folgenden Aufgaben ein eigenes .js-File erstellen!
 
-> **Hinweis:** Die restlichen Aufgaben, die wir nicht geschafft haben, bitte in der Selbstlernphase erledigen!
-
-> **Hinweis:** Bitte alles immer committen und pushen - spicken erlaubt ;)
+> **Wichtig:** Bitte alles immer committen und pushen - spicken bei anderen erlaubt (Tipp: "pull-Befehl"). Tipp: einfach "playground.js" als Nachschlagwerk für Syntax verwenden!
 
 ### Aufgabe 1
-    console.log("MD-Test")
 
 ### Aufgabe 2
 
