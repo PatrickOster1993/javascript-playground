@@ -37,6 +37,7 @@ console.log("In Großbuchstaben:", upperText)
 let lowerText = text.toLowerCase()
 console.log("In Kleinbuchstaben:", lowerText)
 
+
 // Bedingung
 if (zahl > 50) {
   console.log("Die Zahl ist größer als 50")
