@@ -17,6 +17,7 @@ const PI = 3.14 // Bleibt unverändert
 console.log("Variable:", x)
 console.log("Konstante:", PI)
 
+
 // Datentypen
 let zahl = 11 // Number (Sowohl Float als auch Integer werden als Number behandelt)
 let text = "Hallo, JavaScript!" // String
