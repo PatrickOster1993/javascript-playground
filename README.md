@@ -10,11 +10,9 @@
 4. Ausblick: Moderne Webentwicklung mit React.js (State-of-the-Art) ...
 5. Aller Abschied fällt schwer 😢
 
-> **Hinweis:** Morgen gibt es zur Wiederholung wieder ein tolles Quiz, das Sie alle so lieben - das hoffe ich zumindest! xD
-
 ## Übungsaufgaben (Selbstlernphase)
 
-> **Hinweis:** Der Übersichtlichkeit halber bitte für jede einzelne der folgenden Aufgaben ein eigenes .js-File erstellen!
+> **Hinweis:** Der Übersichtlichkeit halber bitte für Aufgaben 1 - 3 ein eigenes .js-File erstellen!
 
 > **Wichtig:** Bitte alles immer committen und pushen - spicken bei anderen erlaubt (Tipp: "pull-Befehl"). Tipp: einfach "playground.js" als Nachschlagwerk für Syntax verwenden!
 
@@ -42,4 +40,4 @@ Erweitern Sie die **index.html** um eine Navigationsleiste, welche per Mausklick
 Innerhalb der **playground.js** befindet sich eine Codesequenz, unterhalb des Kommentars mit dem Titel "Experten (nicht erforderlich)". Versuchen Sie den Code selbständig nachzuvollziehen und machen Sie sich ggf. Notizen!
 
 ### Finale Aufgabe
-Gestalten Sie unsere 90er-Jahre-Website noch lebendiger und authentischer, indem Sie weitere typische Elemente aus dieser Zeit hinzufügen (z. B. Bilder). Ziel ist es, die Seite dynamisch und interaktiv zu gestalten – zum Beispiel durch den Einsatz zusätzlicher JavaScript-Interaktionen, die das Gefühl der 90er Jahre verstärken und den Nutzern ein nostalgisches Erlebnis bieten.
+Gestalten Sie unsere 90er-Jahre-Website noch lebendiger und authentischer, indem Sie weitere typische Elemente aus dieser Zeit hinzufügen (z. B. Bilder). Ziel ist es, die Seite **dynamisch** und **interaktiv** zu gestalten – zum Beispiel durch den Einsatz zusätzlicher JavaScript-Interaktionen, die das **Gefühl der 90er Jahre verstärken und den Nutzern ein nostalgisches Erlebnis bieten**.
