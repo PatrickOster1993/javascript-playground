@@ -117,8 +117,8 @@ console.log("Ersetzter Text:", neuerText)
 // weitere Methoden zur String-Manipulation verfügbar --> IDE hilft!
 
 // Ternärer Operator
-let ergebnis = zahl > 30 ? "Größer als 30 (ternär)" : "30 oder kleiner (ternär)"
-console.log("Ergebnis (ternär):", ergebnis)
+let erg = zahl > 30 ? "Größer als 30 (ternär)" : "30 oder kleiner (ternär)"
+console.log("Ergebnis (ternär):", erg)
 
 // Arrays
 let zahlenArray = [1, 2, 3, 4, 5]
