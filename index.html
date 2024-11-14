@@ -6,13 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Playground</title>
 </head>
+<nav>
+    <ul>
+        <li><a href="#" onclick="loadScript('playground.js')">Playground</a></li>
+        <li><a href="#" onclick="loadScript('Aufgabe_1.js')">Aufgabe 1</a></li>
+        <li><a href="#" onclick="loadScript('aufgabe_2.js')">Aufgabe 2</a></li>
+        <li><a href="#" onclick="loadScript('aufgabe_3.js')">Aufgabe 3</a></li>
+        
+    </ul>
+</nav>
+<script>
+    // Funktion, um ein JavaScript-Dokument zu laden
+    function loadScript(scriptName) {
+        // Prüfen, ob bereits ein Script mit dem angegebenen Namen geladen wurde
+        let existingScript = document.querySelector(`script[src='${scriptName}']`);
+        if (existingScript) {
+            console.log(`${scriptName} ist bereits geladen.`);
+            return;  // Script nicht erneut laden, wenn es schon existiert
+        }
 
+        // Neues <script> Element erstellen
+        let script = document.createElement('script');
+        script.src = scriptName;
+        document.body.appendChild(script);  // Füge das Script zur Seite hinzu
+
+        // Sobald das Skript geladen ist, eine Nachricht in der Konsole anzeigen
+        script.onload = function() {
+            console.log(`${scriptName} wurde erfolgreich geladen.`);
+        };
+
+        // Fehlerbehandlung, falls das Skript nicht geladen werden kann
+        script.onerror = function() {
+            console.error(`Fehler beim Laden des Skripts: ${scriptName}`);
+        };
+    }
+</script>
 <body>
     <h1>JavaScript Playground</h1>
     <h2>Code befindet sich innerhalb Ihres Browser-eigenen Entwicklertools unter der Rubrik "Console"</h2>
-    <script src="playground.js"></script>
-    <script src="Aufgabe_1.js"></script>
-    <script src="aufgabe_2.js"></script>
-</body>
+    
 
 </html>
