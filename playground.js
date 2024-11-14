@@ -3,7 +3,7 @@
 // ============================
 // HIER KÖNNTE IHRE WERBUNG STEHEN!
 // Einfacher Kommentar (1 Zeile)
-
+// Man kann den Menschen nur vorm Kopp gucken
 /*
 Kommentar
 über
