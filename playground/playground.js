@@ -1,3 +1,7 @@
+console.log("##################")
+console.log("### Playground ###")
+console.log("##################")
+
 // ============================
 // Anfänger
 // ============================
@@ -13,6 +17,7 @@ Zeilen
 
 // Variablen und Konstanten
 let x = 42 // Kann später geändert werden
+x = 10
 const PI = 3.14 // Bleibt unverändert
 console.log("Variable:", x)
 console.log("Konstante:", PI)
@@ -76,6 +81,7 @@ while (count < 3) {
   console.log("While-Schleife, Zähler:", count)
   count++
 }
+
 // do...while-Schleife
 count = 0 // Zurücksetzen des Zählers
 do {
@@ -89,14 +95,18 @@ do {
 
 // Objekte
 let person = {
-  name: "Max",
+  name: {
+    vorname: "max",
+    nachname: "mustermann",
+  },
   alter: 25,
   hobby: "Programmieren",
 }
-console.log("Person:", person)
-console.log("Name der Person:", person.name)
 
-let beispielText = "   JavaScript ist mächtig!  "
+console.log("Person:", person)
+console.log("Name der Person:", person.name.vorname)
+
+let beispielText = "      JavaScript ist mächtig!  "
 
 // Trim (Whitespace entfernen)
 let ohneWhitespace = beispielText.trim()
@@ -121,7 +131,7 @@ console.log("Ergebnis (ternär):", ergebnis)
 
 // Arrays
 let zahlenArray = [1, 2, 3, 4, 5]
-console.log("Array:", zahlenArray)
+console.log("Array:", zahlenArray[1])
 
 // Array durchlaufen
 for (let zahl of zahlenArray) {
