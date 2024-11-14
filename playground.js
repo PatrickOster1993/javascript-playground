@@ -115,7 +115,7 @@ let neuerText = beispielText.replace("mächtig", "cool")
 console.log("Ersetzter Text:", neuerText)
 // weitere Methoden zur String-Manipulation verfügbar --> IDE hilft!
 
-// Ternärer Operator
+// Ternärer Operator // Variable ergebnis ist gefüllt mit string  "Größer als 30 (ternär)" wenn zahl > 30, ansonsten wird mit "30 oder kleiner (ternär)" gefüllt
 let ergebnis = zahl > 30 ? "Größer als 30 (ternär)" : "30 oder kleiner (ternär)"
 console.log("Ergebnis (ternär):", ergebnis)
 
