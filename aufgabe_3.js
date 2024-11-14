@@ -4,7 +4,12 @@
     modulo_drei           = x % 3
     modulo_fünf           = x % 5
     
-    if(modulo_drei == 0)
+    if ( modulo_drei == 0 && modulo_fünf == 0)
+    {
+        console.log("FizzBuzz")
+    }
+    
+    else if(modulo_drei == 0)
     {
         console.log("Fizz")
     }
@@ -12,11 +17,6 @@
     else if ( modulo_fünf == 0)
     {
         console.log("Buzz")
-    }
-    
-    if ( modulo_drei == 0 && modulo_fünf == 0)
-    {
-        console.log("FizzBuzz")
     }
     
     else
