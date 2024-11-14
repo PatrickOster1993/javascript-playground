@@ -113,6 +113,7 @@ console.log("Substring (0, 10):", substring)
 // replace (Text ersetzen)
 let neuerText = beispielText.replace("mächtig", "cool")
 console.log("Ersetzter Text:", neuerText)
+// weitere Methoden zur String-Manipulation verfügbar --> IDE hilft!
 
 // Ternärer Operator
 let ergebnis = zahl > 30 ? "Größer als 30 (ternär)" : "30 oder kleiner (ternär)"
@@ -150,6 +151,7 @@ console.log("Array nach unshift:", zahlenArray)
 // reverse (Array umdrehen)
 zahlenArray.reverse()
 console.log("Array nach reverse:", zahlenArray)
+// weitere Array-Methoden verfügbar --> IDE hilft!
 
 // Funktionen
 function addieren(a, b) {
