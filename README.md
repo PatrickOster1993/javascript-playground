@@ -45,3 +45,6 @@ Implementieren Sie das klassische **FizzBuzz-Spiel**. Schreiben Sie hierzu ein P
 
 ### Aufgabe 4 (freiwillig)
 Erweitern Sie die **index.html** um eine Navigationsleiste, welche per Mausklick die einzelnen Aufgaben innerhalb der Konsole ausführen lässt (z. B. "aufgabe_eins.js"). Jedes Mal, wenn Sie dann auf eine Aufgabe innerhalb der Navigationsleiste klicken, soll die entsprechende Aufgabe, also das jeweilige .js-File ausgeführt werden.
+
+### Aufgabe 5 (freiwillig)
+Innerhalb der **playground.js** befindet sich eine Codesequenz, unterhalb des Kommentars mit dem Titel "Experten (nicht erforderlich)". Versuchen Sie den Code selbständig nachzuvollziehen und machen Sie sich ggf. Notizen!
