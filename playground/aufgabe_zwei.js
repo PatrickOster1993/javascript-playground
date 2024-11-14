@@ -12,8 +12,13 @@ console.log("#################")
 // Temperatur in Celsius
 let celsius = 25
 
-// Umrechnung in Fahrenheit
-let fahrenheit = 1.8 * celsius + 32
+// Funktion zur Umrechnung in Fahrenheit
+function getFahrenheit(c) {
+  const f = 1.8 * celsius + 32
+  return f
+}
 
 // Ausgabe
-console.log(`Die Temperatur von ${celsius}°C entspricht ${fahrenheit}°F.`)
+console.log(
+  `Die Temperatur von ${celsius}°C entspricht ${getFahrenheit(celsius)}°F.`
+)

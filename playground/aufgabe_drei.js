@@ -21,5 +21,5 @@ for (let i = 1; i <= 100; i++) {
   }
 
   // Gib entweder "Fizz", "Buzz", "FizzBuzz" oder die Zahl selbst aus
-  console.log(output || i)
+  console.log(output.length > 0 ? output : i)
 }

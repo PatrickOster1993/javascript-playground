@@ -40,4 +40,6 @@ Erweitern Sie die **index.html** um eine Navigationsleiste, welche per Mausklick
 Innerhalb der **playground.js** befindet sich eine Codesequenz, unterhalb des Kommentars mit dem Titel "Experten (nicht erforderlich)". Versuchen Sie den Code selbständig nachzuvollziehen und machen Sie sich ggf. Notizen!
 
 ### Finale Aufgabe
-Gestalten Sie unsere 90er-Jahre-Website noch lebendiger und authentischer, indem Sie weitere typische Elemente aus dieser Zeit hinzufügen (z. B. Bilder). Ziel ist es, die Seite **dynamisch** und **interaktiv** zu gestalten – zum Beispiel durch den Einsatz zusätzlicher JavaScript-Interaktionen, die das **Gefühl der 90er Jahre verstärken und den Nutzern ein nostalgisches Erlebnis bieten**.
+Gestalten Sie unsere 90er-Jahre-Website noch lebendiger und authentischer, indem Sie weitere typische Elemente aus dieser Zeit hinzufügen (z. B. Bilder). Ziel ist es, die Seite **dynamisch** und **interaktiv** zu gestalten – zum Beispiel durch den Einsatz zusätzlicher JavaScript-Interaktionen, die das **Gefühl der 90er Jahre verstärken und den Nutzern ein nostalgisches Erlebnis bieten**. 
+
+> *Hinweis*: Die kreativste Lösung erlangt grenzenlose Ehre!
