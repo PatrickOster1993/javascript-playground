@@ -44,7 +44,4 @@ Implementieren Sie das klassische **FizzBuzz-Spiel**. Schreiben Sie hierzu ein P
 > **Tipp**: Wie wäre es mit dem Modulo-Operator?
 
 ### Aufgabe 4 (freiwillig)
---folgt--
-
-### Aufgabe 5 (freiwillig)
---folgt--
+Erweitern Sie die **index.html** um eine Navigationsleiste, welche per Mausklick die einzelnen Aufgaben innerhalb der Konsole ausführen lässt (z. B. "aufgabe_eins.js"). Jedes Mal, wenn Sie dann auf eine Aufgabe innerhalb der Navigationsleiste klicken, soll die entsprechende Aufgabe, also das jeweilige .js-File ausgeführt werden.
