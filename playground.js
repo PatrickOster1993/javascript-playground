@@ -1,7 +1,7 @@
 // ============================
 // Anfänger
 // ============================
-
+// HIER KÖNNTE IHRE WERBUNG STEHEN!
 // Einfacher Kommentar (1 Zeile)
 
 /*
