@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSV Data Visualization</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    /* General body style */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    /* Style for the dropdown */
+    select {
+      padding: 10px;
+      font-size: 16px;
+      width: 60%;  /* Makes the dropdown responsive */
+      max-width: 300px;
+      margin-bottom: 20px;
+    }
+
+    /* Style for the canvas container */
+    #canvas-container {
+      width: 90%;  /* 90% of the screen width */
+      max-width: 800px; /* Set a max width for large screens */
+      height: 400px; /* Fixed height for the chart */
+      margin-bottom: 20px; /* Space between the chart and dropdown */
+      overflow: hidden;
+    }
+
+    /* Style for the canvas */
+    #plot {
+      width: 100%; /* Make the canvas take full width of the container */
+      height: 100%; /* Make the canvas take full height of the container */
+      display: block;
+    }
+
+    /* Optional: Make the page center the content nicely */
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>CSV Data Visualization</h1>
+
+  <!-- Dropdown for howManyYearsBack -->
+  <label for="yearsBack">Select Number of Years Back:</label>
+  <select id="yearsBack" onchange="updateAndVisualize()">
+    <option value="1" selected>1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+  </select>
+
+  <!-- File input for CSV file -->
+  <input type="file" id="fileInput" accept=".csv" onchange="fileSelected()" />
+
+  <!-- Canvas container -->
+  <div id="canvas-container">
+    <canvas id="plot"></canvas>
+  </div>
+
+  <script src="stocks.js"></script>
+</body>
+</html>
