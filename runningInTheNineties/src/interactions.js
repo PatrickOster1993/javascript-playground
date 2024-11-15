@@ -16,3 +16,4 @@ document.getElementById("clickButton2").addEventListener("click", function () {
   // Öffnet den YouTube-Link in einem neuen Tab
   window.open("https://z0r.de/2035", "_blank")
 })
+

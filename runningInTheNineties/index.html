@@ -21,9 +21,29 @@
             <div id="animBox"></div> <!-- Ein Div für die Animation (ein kleines Box-Element) -->
             <button id="clickButton2">Nein!</button> <!-- Ein Button, der später interaktiv wird -->
             <p>Erinnere dich an die guten alten Zeiten, als das Internet noch mit Modems gearbeitet hat und jeder sein eigenes Geocities-Projekt hatte. 
-                Die Musik war voller Hits, und die Mode? Völlig übertrieben! Es war die Zeit der bunten Kleidung, der schrecklichen Frisuren und natürlich der besten Videospiele!</p>
-        
+                Die Musik war voller Hits, und die Mode? Völlig übertrieben! Es war die Zeit der bunten <br> Kleidung, der  schrecklichen Frisuren und natürlich der besten Videospiele!</p>
+                <br> <br> <br> 
+            
+
+
+            <div class="fake-ad">
+                <h2>Hol dir das neueste Spiel!</h2>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Klicke hier, um das spannendste Spiel der 90er zu sehen!</a>
+            </div>
+
+
+            <div id="popup">
+               
+                <button onclick="redirectToVideo()">OK</button>
+            </div>
+
+
         </section>
+
+
+        <script>
+            
+            </script>
     </main>
 
     <footer>
@@ -35,5 +55,22 @@
     <script src="src/interactions.js"></script> <!-- Verknüpft die Datei interactions.js für Interaktionen -->
     <script src="src/animations.js"></script> <!-- Verknüpft die Datei animations.js für Animationen -->
 </body>
+
+<script>
+    function openPopup() {
+        document.getElementById('popup').style.display = 'block';
+        document.getElementById('overlay').style.display = 'block';
+    }
+    
+    function closePopup() {
+        document.getElementById('popup').style.display = 'none';
+        document.getElementById('overlay').style.display = 'none';
+    }
+    
+    function redirectToVideo() {
+        window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
+        closePopup();
+    }
+    </script>
 
 </html>
