@@ -5,9 +5,9 @@ Erstellen Sie ein Programm, das Ihren **Namen**, Ihr **Alter** und Ihr **Lieblin
 > z. B.: „Hallo Max, du bist 25 Jahre alt und dein Lieblingsessen ist Pizza.“
 */
 
-let name = "Dirk Scheffler"
+let namen = "Dirk Scheffler"
 let alter = "fast 12"
 let lieblingsessen = "Pizza"
 
 
-console.log("Halo I bims 1", name, ", I bim", alter, "umngdt m1 Liblinxessn is", lieblingsessen)
+console.log("Halo I bims 1", namen, ", I bim", alter, "umngdt m1 Liblinxessn is", lieblingsessen)

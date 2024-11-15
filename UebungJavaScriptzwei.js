@@ -33,10 +33,12 @@ function converter() {
         console.log("Bitte geben Sie die Temperatur in Celsius ein:");
         celsius = parseFloat(prompt());
         celsiustofahrenheit(celsius);
+
     } else if (userInput === 'F') {
         console.log("Bitte geben Sie die Temperatur in Fahrenheit ein:");
         fahrenheit = parseFloat(prompt());
         fahrenheittocelsius(fahrenheit);
+        
     } else {
         console.log("Ungültige Eingabe. Bitte geben Sie 'C' oder 'F' ein.");
     }
