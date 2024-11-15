@@ -1,14 +1,6 @@
 # javascript-playground
 
-## To Do
-
 > **Wichtig:** Änderungen bitte nur in **eigenem Branch** vornehmen!
-
-1. Aufgaben besprechen und Fragen klären ...
-2. Quiz zur Wiederholung / Vertiefung der Lerninhalte ...
-3. Gemeinsame Übung: Webentwicklung mit Fokus auf JavaScript (90s-Style) ...
-4. Ausblick: Moderne Webentwicklung mit React.js (State-of-the-Art) ...
-5. Aller Abschied fällt schwer 😢
 
 ## Übungsaufgaben (Selbstlernphase)
 
