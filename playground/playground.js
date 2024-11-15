@@ -18,6 +18,18 @@ console.log("Playground")
 
 // Variablen und Konstanten
 let x = 42 // Kann später geändert werden
+var y = 24 // Kann später auch geändert werden, besitzt aber auch außerhalb des Scopes Gültigkeit
+
+{
+  let aaa = 10
+  var bbb = 20
+
+  console.log("let innerhalb scope gültig:", aaa)
+  console.log("var innerhalb scope gültig:", bbb)
+}
+
+console.log("var auch außerhalb scope gültig:", bbb)
+
 x = 10
 const PI = 3.14 // Bleibt unverändert
 console.log("Variable:", x)
