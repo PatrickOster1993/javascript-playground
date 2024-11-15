@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <!-- Setzt die Zeichencodierung auf UTF-8 für korrekte Zeichenanzeige -->
+    <meta charset="UTF-8">
+    <!-- Stellt sicher, dass die Seite auf verschiedenen Geräten korrekt angezeigt wird -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titel der Seite, der im Browser-Tab angezeigt wird -->
+    <title>JavaScript Playground</title>
+</head>
+
+<body>
+
+    <!-- Hauptüberschrift der Seite -->
+    <h1>JavaScript Playground</h1>
+
+    <section>
+        <!-- Abschnitt mit einer Anleitung, wie man den Code in den Entwicklertools des Browsers ausführt -->
+        <h2>Code befindet sich innerhalb Ihres Browser-eigenen Entwicklertools unter der Rubrik "Console"</h2>
+        <ol>
+            <li>Öffnen Sie die Datei "index.html":
+                <ol>
+                    <!-- Anleitung zum Öffnen der HTML-Datei im Browser -->
+                    <li>Gehen Sie im Datei-Explorer zum Projektordner, in dem sich "index.html" befindet.</li>
+                    <li>Klicken Sie mit der rechten Maustaste auf "index.html".</li>
+                    <li>Wählen Sie "Öffnen mit" und dann "Google Chrome" aus der Liste der Anwendungen.</li>
+                </ol>
+            </li>
+            <li>Klicken Sie mit der rechten Maustaste auf die Seite und wählen Sie "Untersuchen" aus dem Kontextmenü.
+            </li>
+            <li>Alternativ können Sie auch die Tastenkombination <code>Strg + Umschalt + I</code> (Windows/Linux) oder
+                <code>Befehl + Wahltaste + I</code> (Mac) verwenden.
+            </li>
+            <li>Das Entwicklertool wird am unteren oder rechten Rand des Bildschirms angezeigt.</li>
+            <li>Wechseln Sie zur Registerkarte "Console", um das Ergebnis innerhalb der Console zu sehen.</li>
+        </ol>
+    </section>
+
+    <!-- Navigationsleiste für die verschiedenen Aufgaben -->
+    <nav>
+        <!-- Link für Aufgabe 1, der beim Klicken das zugehörige Skript lädt -->
+        <a href="#" onclick="loadScript('aufgabe_eins.js')">Aufgabe 1</a>
+        <!-- Link für Aufgabe 2, der beim Klicken das zugehörige Skript lädt -->
+        <a href="#" onclick="loadScript('aufgabe_zwei.js')">Aufgabe 2</a>
+        <!-- Link für Aufgabe 3, der beim Klicken das zugehörige Skript lädt -->
+        <a href="#" onclick="loadScript('aufgabe_drei.js')">Aufgabe 3</a>
+    </nav>
+
+    <!-- Einbindung des Scripts "playground.js", das in der Datei enthalten ist -->
+    <script src="playground.js"></script>
+
+    <script>
+        // Funktion, um das externe JavaScript-Skript dynamisch zu laden
+        function loadScript(scriptName) {
+            // Erstellen eines neuen <script>-Elements, das das externe Skript lädt
+            const scriptElement = document.createElement('script');
+            // Setzen des Quellpfads des Skripts (je nach Klick wird 'aufgabe_eins.js', 'aufgabe_zwei.js' oder 'aufgabe_drei.js' geladen)
+            scriptElement.src = scriptName;
+
+            // Wenn das Skript erfolgreich geladen wurde
+            scriptElement.onload = function () {
+                // Ausgabe in der Konsole, dass das Skript geladen und ausgeführt wurde
+                console.log(`${scriptName} wurde geladen und ausgeführt.`);
+            };
+
+            // Wenn ein Fehler beim Laden des Skripts auftritt
+            scriptElement.onerror = function () {
+                // Ausgabe in der Konsole, dass ein Fehler beim Laden des Skripts aufgetreten ist
+                console.error(`Fehler beim Laden von ${scriptName}`);
+            };
+
+            // Hängt das neu erstellte <script>-Element an den <body> der Seite an
+            // Dies führt dazu, dass das Skript ausgeführt wird
+            document.body.appendChild(scriptElement);
+        }
+    </script>
+
+</body>
+
+</html>
