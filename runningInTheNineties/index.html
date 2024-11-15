@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de"> <!-- Die Sprache der Seite ist Deutsch -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Zeichencodierung auf UTF-8 setzen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsives Design für mobile Geräte -->
+    <title>Running in the 90s</title> <!-- Der Titel der Webseite, der in der Browser-Registerkarte angezeigt wird -->
+    <link rel="stylesheet" href="global.css"> <!-- Verknüpfen des externen Stylesheets (global.css) -->
+</head>
+
+<body>
+    <header>
+        <h1>Running in the 90s</h1> <!-- Titel der Webseite -->
+    </header>
+    <main>
+        <section id="intro"> <!-- Ein Abschnitt für die Einführung -->
+            <p>Bereit für eine Zeitreise in die 90er Jahre?</p> <!-- Text für die Begrüßung -->
+
+            <button id="clickButton">Ja!</button> <!-- Ein Button, der später interaktiv wird -->
+            <div id="animBox"></div> <!-- Ein Div für die Animation (ein kleines Box-Element) -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024, 90s Dozenten-Dude</p> <!-- Footer mit Copyright-Text -->
+    </footer>
+
+    <!-- Verknüpfen der JavaScript-Dateien (in der Reihenfolge ihrer Ladeabhängigkeit) -->
+    <script src="src/main.js"></script> <!-- Verknüpft die Datei main.js für allgemeine Funktionen -->
+    <script src="src/interactions.js"></script> <!-- Verknüpft die Datei interactions.js für Interaktionen -->
+    <script src="src/animations.js"></script> <!-- Verknüpft die Datei animations.js für Animationen -->
+</body>
+
+</html>
