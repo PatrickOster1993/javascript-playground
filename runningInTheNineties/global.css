@@ -1,0 +1,137 @@
+/* Globale Stileinstellungen */
+
+* {
+    margin: 0;
+    /* Setzt den Standardabstand für alle Elemente auf 0 */
+    padding: 0;
+    /* Setzt den Standardabstand für alle Elemente auf 0 */
+    box-sizing: border-box;
+    /* Verhindert, dass Padding und Border das Gesamtmaß eines Elements beeinflussen */
+}
+
+body {
+    background: linear-gradient(to right, #ff00ff, #00ffff);
+    /* Bunter Hintergrund mit einem Farbverlauf */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    /* Comic Sans als Schriftart im 90er-Stil */
+    color: white;
+    /* Textfarbe auf weiß setzen */
+    text-align: center;
+    /* Zentriert den Text im Body */
+}
+
+header {
+    background-color: #ff0080;
+    /* Hintergrundfarbe für den Header */
+    padding: 20px;
+    /* Abstand rund um den Header */
+}
+
+h1 {
+    font-size: 3rem;
+    /* Große Schriftgröße für den Titel */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    /* Schattierung des Textes für einen 3D-Effekt */
+}
+
+main {
+    margin-top: 50px;
+    /* Abstand nach oben im Hauptbereich */
+}
+
+button {
+    background-color: #ffcc00;
+    /* Gelber Hintergrund für den Button */
+    border: 3px solid #ff00ff;
+    /* Pinker Rand um den Button */
+    color: #000;
+    /* Schwarze Schriftfarbe für den Button */
+    padding: 10px 20px;
+    /* Abstände innerhalb des Buttons */
+    font-size: 1.5rem;
+    /* Große Schrift im Button */
+    cursor: pointer;
+    /* Ändert den Cursor zu einer Hand, wenn er über dem Button schwebt */
+    border-radius: 10px;
+    /* Abgerundete Ecken für den Button */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+    /* Schatten für den Button */
+}
+
+button:hover {
+    background-color: #ff80ff;
+    /* Hellerer Hintergrund, wenn der Button mit der Maus überfahren wird */
+}
+
+#animBox {
+    width: 100px;
+    /* Festlegung der Breite der Box */
+    height: 100px;
+    left: 0;
+    /* Festlegung der Höhe der Box */
+    /* background-color: green; */
+    background-image: url('images/racecar.png'); /* Hintergrundbild */
+    background-repeat: no-repeat; /* Wiederholung des Bildes vermeiden */
+    background-size:cover; /* Hintergrundbild skaliert den Container ausfüllen */
+    background-position: center;
+    /* Grüne Hintergrundfarbe für die Box */
+    margin: 30px auto;
+    /* Abstand oben und unten sowie zentriert auf der Seite */
+    position: absolute;
+    /* Ermöglicht es, die Box mit JavaScript zu bewegen */
+}
+
+#stickfight-container {
+    width: 100%;
+    height: 500px;
+    background-image: url('images/stickmanfight.gif'); /* Your image URL */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+  }
+
+  #play-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  iframe {
+    display: none; /* Hide the iframe initially */
+  }
+
+.horizontal-container {
+    display: flex;
+    gap: 10px; /* Abstand zwischen den Elementen */
+    align-items: center; /* Vertikale Ausrichtung */
+    justify-content: center;
+  }
+  
+.hamsterContainer{
+    width: 50px;
+    height: 100px;
+
+    background-image: url('images/theHamster.gif'); /* Hintergrundbild */
+    background-repeat: no-repeat; /* Wiederholung des Bildes vermeiden */
+    background-size: contain; /* Hintergrundbild skaliert den Container ausfüllen */
+    background-position: center;
+}
+
+footer {
+    position: absolute;
+    /* Fügt das Footer-Element ganz unten auf der Seite ein */
+    bottom: 10px;
+    /* Abstand nach unten */
+    width: 100%;
+    /* Der Footer erstreckt sich über die gesamte Breite */
+    background-color: #ff0080;
+    /* Hintergrundfarbe des Footers */
+    padding: 10px;
+    /* Abstand rund um den Footer */
+    font-size: 1rem;
+    /* Schriftgröße im Footer */
+}
