@@ -56,6 +56,7 @@ button {
     /* Abgerundete Ecken für den Button */
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
     /* Schatten für den Button */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
 button:hover {
@@ -75,7 +76,7 @@ button:hover {
     background-size:cover; /* Hintergrundbild skaliert den Container ausfüllen */
     background-position: center;
     /* Grüne Hintergrundfarbe für die Box */
-    margin: 30px auto;
+    margin: 0 auto;
     /* Abstand oben und unten sowie zentriert auf der Seite */
     position: absolute;
     /* Ermöglicht es, die Box mit JavaScript zu bewegen */
@@ -88,7 +89,7 @@ button:hover {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    display: block;
+    display: none;
   }
 
   #play-button {
@@ -106,9 +107,10 @@ button:hover {
 
 .horizontal-container {
     display: flex;
-    gap: 10px; /* Abstand zwischen den Elementen */
-    align-items: center; /* Vertikale Ausrichtung */
+    gap: 10px;
+    align-items: center;
     justify-content: center;
+    height: 180px;
   }
   
 .hamsterContainer{
