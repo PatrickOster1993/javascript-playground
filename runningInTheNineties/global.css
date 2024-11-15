@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    /* Setzt den Standardabstand für alle Elemente auf 0 */
+    padding: 0;
+    /* Setzt den Standardabstand für alle Elemente auf 0 */
+    box-sizing: border-box;
+    /* Verhindert, dass Padding und Border das Gesamtmaß eines Elements beeinflussen */
+}
+
+body {
+    background-image: url('src/background.png');
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+header {
+    background-color: #ff0080;
+    padding: 20px;
+    position: relative;
+    z-index: 1002;
+}
+
+h1 {
+    font-size: 3rem;
+    /* Große Schriftgröße für den Titel */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    /* Schattierung des Textes für einen 3D-Effekt */
+}
+main {
+    margin-top: 50px;
+    /* Abstand nach oben im Hauptbereich */
+}
+p{
+    margin-top: 1%;
+    font-size: large;
+    color: #25dca8;
+    font-weight: bold;
+    border: 2px white;
+}
+button {
+    margin-top: 2%;
+    background-color: #ffcc00;
+    /* Gelber Hintergrund für den Button */
+    border: 3px solid #ff00ff;
+    /* Pinker Rand um den Button */
+    color: #000;
+    /* Schwarze Schriftfarbe für den Button */
+    padding: 10px 20px;
+    /* Abstände innerhalb des Buttons */
+    font-size: 1.5rem;
+    /* Große Schrift im Button */
+    cursor: pointer;
+    /* Ändert den Cursor zu einer Hand, wenn er über dem Button schwebt */
+    border-radius: 10px;
+    /* Abgerundete Ecken für den Button */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+    /* Schatten für den Button */
+}
+
+button:hover {
+    background-color: #ff80ff;
+}
+
+#startButton {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1003;
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    background-color: #ff0080;
+    padding: 10px;
+    font-size: 1rem;
+    z-index: 1002;
+}
+
+#matrix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1001;
+}
+
+#rolling-image {
+    position: absolute;
+    bottom: 30;
+    transition: transform 0.05s linear;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #000;
+    transition: height 0.5s ease-in-out;
+    z-index: 1000;
+}
