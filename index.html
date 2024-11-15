@@ -27,9 +27,11 @@
         }
     </style>
     <script>
-        function loadScript(scriptName) {
+        function loadScript(scriptName) 
+        {
+            console.clear();
             const script = document.createElement("script");
-            script.src = scriptName + ".js"; // Skriptnamen anpassen
+            script.src = scriptName + ".js";
             document.head.appendChild(script);
         }
     </script>
