@@ -6,49 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsives Design für mobile Geräte -->
     <title>Running in the 90s</title> <!-- Der Titel der Webseite, der in der Browser-Registerkarte angezeigt wird -->
     <link rel="stylesheet" href="global.css"> <!-- Verknüpfen des externen Stylesheets (global.css) -->
-    
+
 </head>
 
 <body>
     <header>
-        <h1>Running in the 90s</h1> <!-- Titel der Webseite -->
+        <h1>Hier könnte Ihre Werbung stehen!</h1> <!-- Titel der Webseite -->
     </header>
     <main>
         <section id="intro"> <!-- Ein Abschnitt für die Einführung -->
+            <img src="https://www.bleib-virenfrei.de/it-sicherheit/bundespolizei-virus/images/versionen/version-2-01-gross.png"
+                width="1000" height="800">
             <p>Bereit für eine Zeitreise in die 90er Jahre?</p> <!-- Text für die Begrüßung -->
 
             <button id="clickButton">Ja!</button> <!-- Ein Button, der später interaktiv wird -->
             <div id="animBox"></div> <!-- Ein Div für die Animation (ein kleines Box-Element) -->
             <button id="clickButton2">Nein!</button> <!-- Ein Button, der später interaktiv wird -->
-            <p>Erinnere dich an die guten alten Zeiten, als das Internet noch mit Modems gearbeitet hat und jeder sein eigenes Geocities-Projekt hatte. 
-                Die Musik war voller Hits, und die Mode? Völlig übertrieben! Es war die Zeit der bunten <br> Kleidung, der  schrecklichen Frisuren und natürlich der besten Videospiele!</p>
-                <br> <br> <br> 
-            
+            <p>Erinnere dich an die guten alten Zeiten, als das Internet noch mit Modems gearbeitet hat und jeder sein
+                eigenes Geocities-Projekt hatte.
+                Die Musik war voller Hits, und die Mode? Völlig übertrieben! Es war die Zeit der bunten <br> Kleidung,
+                der schrecklichen Frisuren und natürlich der besten Videospiele!
+                Die 90er Jahre waren ein aufregendes Jahrzehnt für die Popkultur, geprägt von einem aufregenden Mix aus
+                Musik, Mode und Technologie. Die Grunge-Bewegung, angeführt von Bands wie Nirvana und Pearl Jam, stellte
+                den Spaß des Mainstream-Pop in Frage. Gleichzeitig erlebte Hip-Hop mit Künstlern wie Tupac und Notorious
+                B.I.G. seinen Aufstieg. In der Mode dominierten Baggy Jeans, Choker-Halsketten und bunte Windbreaker.
+                Serien wie „Friends“ und „Die frischen Prinzen von Bel-Air“ prägten das Fernsehen, während das Internet
+                langsam Einzug in die Haushalte hielt.
+                Die 90er waren eine Zeit des Wandels und der kulturellen Diversität, die bis heute nachhallt.
+            </p>
+            <br> <br> <br>
+
 
 
             <div class="fake-ad">
                 <h2>Hol dir das neueste Spiel!</h2>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Klicke hier, um das spannendste Spiel der 90er zu sehen!</a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Klicke hier, um das spannendste
+                    Spiel der 90er zu sehen!</a>
             </div>
 
 
+
             <div id="popup">
-               
+
                 <button onclick="redirectToVideo()">OK</button>
             </div>
 
 
         </section>
-
-
-        <script>
-            
-            </script>
+        
     </main>
 
-    <footer>
-        <p>&copy; 2024, 90s Dozenten-Dude</p> <!-- Footer mit Copyright-Text -->
-    </footer>
+    
 
     <!-- Verknüpfen der JavaScript-Dateien (in der Reihenfolge ihrer Ladeabhängigkeit) -->
     <script src="src/main.js"></script> <!-- Verknüpft die Datei main.js für allgemeine Funktionen -->
@@ -61,16 +69,23 @@
         document.getElementById('popup').style.display = 'block';
         document.getElementById('overlay').style.display = 'block';
     }
-    
+
     function closePopup() {
         document.getElementById('popup').style.display = 'none';
         document.getElementById('overlay').style.display = 'none';
     }
-    
+
     function redirectToVideo() {
         window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
         closePopup();
     }
-    </script>
+</script>
 
+
+<!--
+<footer>
+        
+    <p>&copy; 2024, 90s Dozenten-Dude und Schirk Deffler</p> //Footer mit Copyright-Text 
+</footer>
+-->
 </html>
