@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperaturumrechnung</title>
+</head>
+<body>
+  <h1>Temperaturumrechnung: Celsius in Fahrenheit</h1>
+  <label for="celsiusInput">Geben Sie die Temperatur in Celsius ein:</label>
+  <input type="number" id="celsiusInput" placeholder="Temperatur in Celsius">
+  <button onclick="convertTemperature()">Umrechnen</button>
+  <p id="output"></p>
+
+  <script>
+    // Funktion zur Umrechnung von Celsius in Fahrenheit
+    function celsiusToFahrenheit(celsius) {
+      let fahrenheit = 1.8 * celsius + 32;
+      return fahrenheit;
+    }
+
+    // Funktion zur Verarbeitung der Benutzereingabe und Ausgabe des Ergebnisses
+    function convertTemperature() {
+      let celsiusTemp = parseFloat(document.getElementById("celsiusInput").value);
+      let outputElement = document.getElementById("output");
+      
+      if (!isNaN(celsiusTemp)) {
+        let fahrenheitTemp = celsiusToFahrenheit(celsiusTemp);
+        outputElement.textContent = celsiusTemp + "°C entsprechen " + fahrenheitTemp.toFixed(2) + "°F";
+      } else {
+        outputElement.textContent = "Bitte geben Sie eine gültige Zahl ein.";
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Persönliche Informationen</title>
+</head>
+<body>
+  <h1>Persönliche Informationen</h1>
+  <label for="name">Name:</label>
+  <input type="text" id="name" placeholder="Geben Sie Ihren Namen ein"><br>
+  <label for="alter">Alter:</label>
+  <input type="number" id="alter" placeholder="Geben Sie Ihr Alter ein"><br>
+  <label for="lieblingsessen">Lieblingsessen:</label>
+  <input type="text" id="lieblingsessen" placeholder="Geben Sie Ihr Lieblingsessen ein"><br>
+  <button onclick="displayInfo()">Bestätigen</button>
+  <p id="output"></p>
+
+  <script>
+    function displayInfo() {
+      let name = document.getElementById("name").value;
+      let alter = document.getElementById("alter").value;
+      let lieblingsessen = document.getElementById("lieblingsessen").value;
+
+      if (name && alter && lieblingsessen) {
+        document.getElementById("output").textContent = `Hallo ${name}, du bist ${alter} Jahre alt und dein Lieblingsessen ist ${lieblingsessen}.`;
+      } else {
+        document.getElementById("output").textContent = "Bitte füllen Sie alle Felder aus.";
+      }
+    }
+  </script>
+</body>
+</html>

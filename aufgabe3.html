@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FizzBuzz-Spiel</title>
+</head>
+<body>
+  <h1>FizzBuzz-Spiel</h1>
+  <button onclick="fizzBuzz()">Start FizzBuzz</button>
+  <pre id="output"></pre>
+
+  <script>
+    function fizzBuzz() {
+      let output = "";
+      for (let i = 1; i <= 100; i++) {
+        if (i % 3 === 0 && i % 5 === 0) {
+          output += "FizzBuzz\n";
+        } else if (i % 3 === 0) {
+          output += "Fizz\n";
+        } else if (i % 5 === 0) {
+          output += "Buzz\n";
+        } else {
+          output += i + "\n";
+        }
+      }
+      document.getElementById("output").textContent = output;
+    }
+  </script>
+</body>
+</html>
