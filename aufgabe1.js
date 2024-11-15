@@ -12,4 +12,4 @@ let person =
     }
 
 console.log("Person:", person)
-console.log("Hallo",person.name,", du bist", person.alter, "Jahre alt und dein Lieblingsessen ist", person.lieblingsessen,".")
+console.log("Hallo "+person.name+", du bist "+ person.alter+ " Jahre alt und dein Lieblingsessen ist "+ person.lieblingsessen+".")

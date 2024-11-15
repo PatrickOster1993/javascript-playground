@@ -13,15 +13,15 @@ sowie C: Temperatur in **Celsius**
 function umrechnen(sys, temp) 
 {
 
-    if (sys=="F" || sys=="f") 
+    if (sys.toLowerCase()=="f") 
     {
         ergebnis= 1.8*temp+32
-        console.log(temp," Grad Celsius entsprechen", ergebnis, " Grad Fahrenheit.")
+        console.log(temp+" Grad Celsius entsprechen "+ ergebnis+ " Grad Fahrenheit.")
     } 
-    else if (sys=="C"|| sys=="c")
+    else if (sys.toLowerCase()=="c")
     {
         ergebnis=((temp-32)*5/9)
-        console.log(temp," Grad Fahrenheit entsprechen", ergebnis, " Grad Celsius.")
+        console.log(temp+" Grad Fahrenheit entsprechen "+ ergebnis+ " Grad Celsius.")
     }
     else
     {
@@ -29,4 +29,4 @@ function umrechnen(sys, temp)
     }
 }
 
-console.log(umrechnen("f",35))
+umrechnen("f",35)
