@@ -71,9 +71,9 @@ button:hover {
     left: 0;
     /* Festlegung der Höhe der Box */
     /* background-color: green; */
-    background-image: url('images/racecar.png'); /* Hintergrundbild */
+    background-image: url('images/delorean.png'); /* Hintergrundbild */
     background-repeat: no-repeat; /* Wiederholung des Bildes vermeiden */
-    background-size:cover; /* Hintergrundbild skaliert den Container ausfüllen */
+    background-size:contain; /* Hintergrundbild skaliert den Container ausfüllen */
     background-position: center;
     /* Grüne Hintergrundfarbe für die Box */
     margin: 0 auto;
