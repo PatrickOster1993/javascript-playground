@@ -14,10 +14,11 @@ body {
     /* Bunter Hintergrund mit einem Farbverlauf */
     font-family: 'Comic Sans MS', cursive, sans-serif;
     /* Comic Sans als Schriftart im 90er-Stil */
-    color: white;
-    /* Textfarbe auf weiß setzen */
-    text-align: center;
-    /* Zentriert den Text im Body */
+    color: #0000ff;
+    /* Textfarbe auf blau setzen */
+    text-align: left; /* Text nach links ausrichten */
+    padding-left: 70px; /* Innerer Abstand */
+    margin-left: 40px; /* Äußere Abstände */
 }
 
 header {
