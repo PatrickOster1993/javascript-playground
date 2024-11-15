@@ -1,4 +1,6 @@
+console.clear()
 console.log("Aufgabe 3")
+
 for (let i = 1; i <= 100; i++) {
     // beim kleinsten gemeinsamen Nenner von 3 und 5 also 15, ausgabe "FizzBuzz"
     if(i%3==0 && i%5==0 ){
