@@ -70,10 +70,27 @@ button:hover {
     /* Festlegung der Höhe der Box */
     background-color: green;
     /* Grüne Hintergrundfarbe für die Box */
-    margin: 30px auto;
+    margin: 30px left;
     /* Abstand oben und unten sowie zentriert auf der Seite */
     position: relative;
     /* Ermöglicht es, die Box mit JavaScript zu bewegen */
+}
+#animBox2 {
+    width: 100px;
+    /* Festlegung der Breite der Box */
+    height: 100px;
+    /* Festlegung der Höhe der Box */
+    background-color: pink;
+    /* Grüne Hintergrundfarbe für die Box */
+    margin: 30px 1890px;
+    /* Abstand oben und unten sowie zentriert auf der Seite */
+    position: relative;
+    /* Ermöglicht es, die Box mit JavaScript zu bewegen */
+}
+#bild-container1 {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 footer {
