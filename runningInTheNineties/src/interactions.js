@@ -6,5 +6,13 @@ document.getElementById("clickButton").addEventListener("click", function () {
   alert("Du hast den Button in den 90ern geklickt!")
 
   // Öffnet den YouTube-Link in einem neuen Tab
-  window.open("https://www.youtube.com/watch?v=BJ0xBCwkg3E", "_blank")
+  window.open("https://z0r.de/2035", "_blank")
+})
+
+document.getElementById("clickButton2").addEventListener("click", function () {
+  // Zeigt eine Alert-Nachricht an
+  alert("Schäm dich") 
+
+  // Öffnet den YouTube-Link in einem neuen Tab
+  window.open("https://z0r.de/2035", "_blank")
 })
