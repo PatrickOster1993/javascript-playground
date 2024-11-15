@@ -10,7 +10,8 @@ Kommentar
 mehrere
 Zeilen
 */
-console.clear()
+console.log("Playground")
+
 // Variablen und Konstanten
 let x = 42 // Kann später geändert werden
 const PI = 3.14 // Bleibt unverändert
