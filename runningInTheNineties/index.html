@@ -12,12 +12,12 @@
 <body>
     <header>
         
+        <div id="animBox"></div> <!-- Ein Div für die Animation (ein kleines Box-Element) -->
         <span class="horizontal-container">
             <div class="hamsterContainer"></div>
-            <h1>Running in the 90s</h1> <!-- Titel der Webseite -->
+            <h1>Marty, we have to go back!</h1> <!-- Titel der Webseite -->
             <div class="hamsterContainer"></div>
         </span>
-        <div id="animBox"></div> <!-- Ein Div für die Animation (ein kleines Box-Element) -->
     </header>
     <main>
         <section id="intro"> <!-- Ein Abschnitt für die Einführung -->
@@ -26,7 +26,40 @@
         </br>
             <button id="play-button">Fuchs muss tun was ein Fuchs tun muss!</button>
 
-            <div id="stickfight-container"></div>
+            <div id="stickfight-container">
+                <div style="display: flex;
+                    justify-content: center;
+                    align-items: center;">
+                    <div     
+                        id="otherbox"
+                        style="background-image: url('images/cassette.png');
+                        background-size: contain;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        width: 30%;
+                        height: 300px;
+                        display: block;">
+                    </div>
+                    <div     
+                        style="background-image: url('images/stickmanfight.gif');
+                        background-size: contain;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        width: 30%;
+                        height: 500px;">
+                    </div>
+                    <div
+                        id="box"
+                        style="background-image: url('images/toaster.png');
+                        background-size: contain;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        width: 30%;
+                        height: 400px;
+                        display: block;">
+                    </div>
+                </div>
+            </div>
             
             <iframe
                 id="youtube-video"
@@ -46,9 +79,10 @@
 
     <!-- Verknüpfen der JavaScript-Dateien (in der Reihenfolge ihrer Ladeabhängigkeit) -->
     <script src="src/main.js"></script> <!-- Verknüpft die Datei main.js für allgemeine Funktionen -->
-    <script src="src/interactions.js"></script> <!-- Verknüpft die Datei interactions.js für Interaktionen -->
+    <!-- <script src="src/interactions.js"></script>  -->
     <script src="src/animations.js"></script> <!-- Verknüpft die Datei animations.js für Animationen -->
     <script src="src/videoplayer.js"></script> 
+    <script src="src/blink.js"></script> 
 </body>
 
 </html>

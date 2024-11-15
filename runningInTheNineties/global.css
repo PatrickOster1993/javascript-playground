@@ -82,13 +82,10 @@ button:hover {
     /* Ermöglicht es, die Box mit JavaScript zu bewegen */
 }
 
+
 #stickfight-container {
     width: 100%;
     height: 500px;
-    background-image: url('images/stickmanfight.gif'); /* Your image URL */
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
     display: none;
   }
 
